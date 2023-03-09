@@ -1,0 +1,1130 @@
+{
+  "settings": {
+    "success": "DD",
+    "maxQuota": 15,
+    "maxCredits": 40,
+    "mailPostfix": "marmara.edu.tr",
+    "numberLength": 8,
+    "successWeight": 70,
+    "maxLectureCountPerCourse": 1,
+    "electivePolicy": {
+      "1": {},
+      "2": {
+        "NTE": 1
+      },
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {
+        "TE": 1,
+        "UE": 1
+      },
+      "8": {
+        "TE": 3,
+        "NTE": 1,
+        "FTE": 1
+      }
+    }
+  },
+  "courses": [
+    {
+      "code": "ATA121",
+      "name": "Ataturk’s Principles and the History of Turkish Renovation I",
+      "semester": 1,
+      "type": "CC",
+      "credit": 2
+    },
+    {
+      "code": "MBG1201",
+      "name": "Introduction to Modern Biology",
+      "semester": 1,
+      "type": "CC",
+      "credit": 5
+    },
+    {
+      "code": "CSE1200",
+      "name": "Introduction to Computer Engineering",
+      "semester": 1,
+      "type": "CC",
+      "credit": 4
+    },
+    {
+      "code": "CSE1241",
+      "name": "Computer Programming I",
+      "semester": 1,
+      "type": "CC",
+      "credit": 6
+    },
+    {
+      "code": "MATH1001",
+      "name": "Calculus I",
+      "semester": 1,
+      "type": "CC",
+      "credit": 6
+    },
+    {
+      "code": "PHYS1101",
+      "name": "Physics I",
+      "semester": 1,
+      "type": "CC",
+      "credit": 4
+    },
+    {
+      "code": "PHYS1103",
+      "name": "Physics Lab I",
+      "semester": 1,
+      "type": "CC",
+      "credit": 2
+    },
+    {
+      "code": "TRD121",
+      "name": "Türk Dili I",
+      "semester": 1,
+      "type": "CC",
+      "credit": 2
+    },
+    {
+      "code": "ATA122",
+      "name": "Ataturk’s Principles and the History of Turkish Renovation II",
+      "semester": 2,
+      "type": "CC",
+      "credit": 2
+    },
+    {
+      "code": "CSE1242",
+      "name": "Computer Programming II",
+      "semester": 2,
+      "type": "CC",
+      "credit": 6,
+      "prerequisites": [
+        {
+          "course": "CSE1241",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "MATH1002",
+      "name": "Calculus II",
+      "semester": 2,
+      "type": "CC",
+      "credit": 6
+    },
+    {
+      "code": "MATH2256",
+      "name": "Linear Algebra for Computer Engineering",
+      "semester": 2,
+      "type": "CC",
+      "credit": 5
+    },
+    {
+      "code": "PHYS1102",
+      "name": "Physics II",
+      "semester": 2,
+      "type": "CC",
+      "credit": 4
+    },
+    {
+      "code": "PHYS1104",
+      "name": "Physics Lab II",
+      "semester": 2,
+      "type": "CC",
+      "credit": 2
+    },
+    {
+      "code": "TRD122",
+      "name": "Türk Dili II",
+      "semester": 2,
+      "type": "CC",
+      "credit": 2
+    },
+    {
+      "code": "NTE101",
+      "name": "Non-Technical Elective",
+      "semester": 2,
+      "type": "NTE",
+      "credit": 3
+    },
+    {
+      "code": "CSE2023",
+      "name": "Discrete Computational Structures",
+      "semester": 3,
+      "type": "CC",
+      "credit": 6
+    },
+    {
+      "code": "CSE2225",
+      "name": "Data Structures",
+      "semester": 3,
+      "type": "CC",
+      "credit": 7,
+      "prerequisites": [
+        {
+          "course": "CSE1242",
+          "grade": "DD"
+        }
+      ]
+    },
+    {
+      "code": "ECON2004",
+      "name": "Engineering Economy",
+      "semester": 3,
+      "type": "CC",
+      "credit": 4
+    },
+    {
+      "code": "EE2031",
+      "name": "Electric Circuits",
+      "semester": 3,
+      "type": "CC",
+      "credit": 5,
+      "prerequisites": [
+        {
+          "course": "PHYS1102",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "MATH2055",
+      "name": "Differential Equations",
+      "semester": 3,
+      "type": "CC",
+      "credit": 4
+    },
+    {
+      "code": "MATH2059",
+      "name": "Numerical Methods",
+      "semester": 3,
+      "type": "CC",
+      "credit": 4,
+      "prerequisites": [
+        {
+          "course": "MATH1001",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "CSE2246",
+      "name": "Analysis of Algorithms",
+      "semester": 4,
+      "type": "CC",
+      "credit": 6,
+      "prerequisites": [
+        {
+          "course": "CSE2225",
+          "grade": "DD"
+        }
+      ]
+    },
+    {
+      "code": "CSE2138",
+      "name": "Systems Programming",
+      "semester": 4,
+      "type": "CC",
+      "credit": 7
+    },
+    {
+      "code": "CSE2260",
+      "name": "Principles of Programming Languages",
+      "semester": 4,
+      "type": "CC",
+      "credit": 6,
+      "prerequisites": [
+        {
+          "course": "CSE1242",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "EE2032",
+      "name": "Electronics",
+      "semester": 4,
+      "type": "CC",
+      "credit": 5,
+      "prerequisites": [
+        {
+          "course": "EE2031",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "STAT2253",
+      "name": "Prob. and Stat. for Computer Engineering",
+      "semester": 4,
+      "type": "CC",
+      "credit": 5
+    },
+    {
+      "code": "CSE3000",
+      "name": "Summer Practice I",
+      "semester": 5,
+      "type": "CC",
+      "credit": 10
+    },
+    {
+      "code": "CSE3215",
+      "name": "Digital Logic Design",
+      "semester": 5,
+      "type": "CC",
+      "credit": 6
+    },
+    {
+      "code": "CSE3033",
+      "name": "Operating Systems",
+      "semester": 5,
+      "type": "CC",
+      "credit": 7,
+      "prerequisites": [
+        {
+          "course": "CSE2225",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "CSE3055",
+      "name": "Database Systems",
+      "semester": 5,
+      "type": "CC",
+      "credit": 7,
+      "prerequisites": [
+        {
+          "course": "CSE2225",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "CSE3063",
+      "name": "Object-Oriented Software Design",
+      "semester": 5,
+      "type": "CC",
+      "credit": 5,
+      "prerequisites": [
+        {
+          "course": "CSE2023",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "IE3081",
+      "name": "Modeling and Discrete Simulation",
+      "semester": 5,
+      "type": "CC",
+      "credit": 4,
+      "prerequisites": [
+        {
+          "course": "STAT2253",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "CSE3038",
+      "name": "Computer Organization",
+      "semester": 6,
+      "type": "CC",
+      "credit": 7,
+      "prerequisites": [
+        {
+          "course": "CSE2138",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "CSE3044",
+      "name": "Software Engineering",
+      "semester": 6,
+      "type": "CC",
+      "credit": 7,
+      "prerequisites": [
+        {
+          "course": "CSE3055",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "CSE3048",
+      "name": "Introduction to Signals and Systems",
+      "semester": 6,
+      "type": "CC",
+      "credit": 5,
+      "prerequisites": [
+        {
+          "course": "MATH2055",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "CSE3048",
+      "name": "Introduction to Signals and Systems",
+      "semester": 6,
+      "type": "CC",
+      "credit": 5,
+      "prerequisites": [
+        {
+          "course": "MATH2055",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "CSE3264",
+      "name": "Formal Languages and Automata Theory",
+      "semester": 6,
+      "type": "CC",
+      "credit": 5,
+      "prerequisites": [
+        {
+          "course": "CSE2023",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "IE3235",
+      "name": "Operations Research",
+      "semester": 6,
+      "type": "CC",
+      "credit": 4,
+      "prerequisites": [
+        {
+          "course": "MATH2256",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "COM2202",
+      "name": "Technical Comm. and Entrepreneurship",
+      "semester": 6,
+      "type": "CC",
+      "credit": 2
+    },
+    {
+      "code": "CSE4000",
+      "name": "Summer Practice II",
+      "semester": 7,
+      "type": "CC",
+      "credit": 10
+    },
+    {
+      "code": "CSE4074",
+      "name": "Computer Networks",
+      "semester": 7,
+      "type": "CC",
+      "credit": 5
+    },
+    {
+      "code": "CSE4219",
+      "name": "Principles of Embedded Systems Design",
+      "semester": 7,
+      "type": "CC",
+      "credit": 6,
+      "prerequisites": [
+        {
+          "course": "CSE3038",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "CSE4297",
+      "name": "Engineering Project I",
+      "semester": 7,
+      "type": "CC",
+      "credit": 5
+    },
+    {
+      "code": "ISG121",
+      "name": "İş Sağlığı ve Güvenliği I",
+      "semester": 7,
+      "type": "CC",
+      "credit": 2
+    },
+    {
+      "code": "CSE4288",
+      "name": "Introduction to Machine Learning",
+      "semester": 7,
+      "type": "CC",
+      "credit": 5,
+      "prerequisites": [
+        {
+          "course": "STAT2253",
+          "grade": "FD"
+        },
+        {
+          "course": "MATH2256",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "UE101",
+      "name": "University Elective",
+      "semester": 7,
+      "type": "UE",
+      "credit": 3
+    },
+    {
+      "code": "CSE4026",
+      "name": "Introduction to Robotics and Control Theory",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4032",
+      "name": "Introduction to Distributed Systems",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4034",
+      "name": "Advanced Unix Programming",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5,
+      "prerequisites": [
+        {
+          "course": "CSE3033",
+          "grade": "DD"
+        }
+      ]
+    },
+    {
+      "code": "CSE4038",
+      "name": "Introduction to Parallel Processing",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4040",
+      "name": "Cloud Computing",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4044",
+      "name": "Software Project Management",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4053",
+      "name": "Information Systems: Analysis and Design",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4056",
+      "name": "Management of Information Systems",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4057",
+      "name": "Information Systems Security",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4058",
+      "name": "Fundamentals of Electronic Commerce",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4059",
+      "name": "Internet Programming",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4061",
+      "name": "Compiler Design",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5,
+      "prerequisites": [
+        {
+          "course": "CSE3264",
+          "grade": "DD"
+        }
+      ]
+    },
+    {
+      "code": "CSE4062",
+      "name": "Introduction to Data Science and Analytics",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4063",
+      "name": "Fundamentals of Data Mining",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4065",
+      "name": "Introduction to Computational Genomics",
+      "semester": 7,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4066",
+      "name": "Introduction to Cryptography",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4067",
+      "name": "Introduction to Blockchain Programming",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4070",
+      "name": "Software Frameworks",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4075",
+      "name": "Wireless and Mobile Networks",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5,
+      "prerequisites": [
+        {
+          "course": "CSE4074",
+          "grade": "DD"
+        }
+      ]
+    },
+    {
+      "code": "CSE4082",
+      "name": "Artificial Intelligence",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4083",
+      "name": "Computer Graphics",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4084",
+      "name": "Multimedia Systems",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4085",
+      "name": "Human Computer Interaction",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4086",
+      "name": "Mobile Device Programming",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4217",
+      "name": "Microprocessors",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5,
+      "prerequisites": [
+        {
+          "course": "CSE3038",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "code": "CSE4093",
+      "name": "Special Topics in Computer Engineering I",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4094",
+      "name": "Special Topics in Computer Engineering II",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4095",
+      "name": "Special Topics in Computer Engineering III",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4096",
+      "name": "Special Topics in Computer Engineering IV",
+      "semester": 8,
+      "type": "TE",
+      "credit": 5
+    },
+    {
+      "code": "CSE4298",
+      "name": "Engineering Project II",
+      "semester": 8,
+      "type": "CC",
+      "credit": 5,
+      "prerequisites": [
+        {
+          "course": "CSE4297",
+          "grade": "DD"
+        }
+      ]
+    },
+    {
+      "code": "ISG122",
+      "name": "İş Sağlığı ve Güvenliği II",
+      "semester": 8,
+      "type": "CC",
+      "credit": 2
+    },
+    {
+      "code": "NTE102",
+      "name": "Non-Technical Elective II",
+      "semester": 8,
+      "type": "NTE",
+      "credit": 3
+    },
+    {
+      "code": "FTE101",
+      "name": "Faculty-Technical Elective I",
+      "semester": 8,
+      "type": "FTE",
+      "credit": 5
+    }
+  ],
+  "staffs": [
+    {
+      "name": "Robert",
+      "surname": "Martin",
+      "isLecturer": true
+    },
+    {
+      "name": "Steve",
+      "surname": "Jobs",
+      "isLecturer": true
+    }
+  ],
+  "students": [
+    {
+      "semester": 1,
+      "number": "87754726",
+      "name": "",
+      "surname": "",
+      "grades": [
+        {
+          "course": "ATA121",
+          "grade": "FD"
+        },
+        {
+          "course": "CSE1200",
+          "grade": "FF"
+        },
+        {
+          "course": "CSE1241",
+          "grade": "FD"
+        },
+        {
+          "course": "MATH1001",
+          "grade": "FF"
+        },
+        {
+          "course": "MBG1201",
+          "grade": "CB"
+        },
+        {
+          "course": "PHYS1101",
+          "grade": "DC"
+        },
+        {
+          "course": "PHYS1103",
+          "grade": "BB"
+        },
+        {
+          "course": "TRD121",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "number": "45474882",
+      "name": "",
+      "surname": "",
+      "grades": [
+        {
+          "course": "ATA121",
+          "grade": "FF"
+        },
+        {
+          "course": "CSE1200",
+          "grade": "BA"
+        },
+        {
+          "course": "CSE1241",
+          "grade": "CB"
+        },
+        {
+          "course": "MATH1001",
+          "grade": "FF"
+        },
+        {
+          "course": "MBG1201",
+          "grade": "BB"
+        },
+        {
+          "course": "PHYS1101",
+          "grade": "DC"
+        },
+        {
+          "course": "PHYS1103",
+          "grade": "FF"
+        },
+        {
+          "course": "TRD121",
+          "grade": "CC"
+        },
+        {
+          "course": "ATA122",
+          "grade": "FD"
+        },
+        {
+          "course": "MATH1002",
+          "grade": "CB"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "number": "61986598",
+      "name": "",
+      "surname": "",
+      "grades": [
+        {
+          "course": "ATA121",
+          "grade": "FF"
+        },
+        {
+          "course": "CSE1200",
+          "grade": "FF"
+        },
+        {
+          "course": "CSE1241",
+          "grade": "CC"
+        },
+        {
+          "course": "MATH1001",
+          "grade": "BA"
+        },
+        {
+          "course": "MBG1201",
+          "grade": "DD"
+        },
+        {
+          "course": "PHYS1101",
+          "grade": "FD"
+        },
+        {
+          "course": "PHYS1103",
+          "grade": "DC"
+        },
+        {
+          "course": "TRD121",
+          "grade": "DC"
+        },
+        {
+          "course": "ATA122",
+          "grade": "BB"
+        },
+        {
+          "course": "MATH1002",
+          "grade": "CB"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "number": "75841979",
+      "name": "",
+      "surname": "",
+      "grades": [
+        {
+          "course": "ATA121",
+          "grade": "FD"
+        },
+        {
+          "course": "CSE1200",
+          "grade": "FF"
+        },
+        {
+          "course": "CSE1241",
+          "grade": "CB"
+        },
+        {
+          "course": "MATH1001",
+          "grade": "DC"
+        },
+        {
+          "course": "MBG1201",
+          "grade": "DD"
+        },
+        {
+          "course": "PHYS1101",
+          "grade": "FF"
+        },
+        {
+          "course": "PHYS1103",
+          "grade": "DC"
+        },
+        {
+          "course": "TRD121",
+          "grade": "AA"
+        },
+        {
+          "course": "ATA122",
+          "grade": "AA"
+        },
+        {
+          "course": "MATH1002",
+          "grade": "AA"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "number": "15761134",
+      "name": "",
+      "surname": "",
+      "grades": [
+        {
+          "course": "ATA121",
+          "grade": "BB"
+        },
+        {
+          "course": "CSE1200",
+          "grade": "CB"
+        },
+        {
+          "course": "CSE1241",
+          "grade": "AA"
+        },
+        {
+          "course": "MATH1001",
+          "grade": "BA"
+        },
+        {
+          "course": "MBG1201",
+          "grade": "AA"
+        },
+        {
+          "course": "PHYS1101",
+          "grade": "DC"
+        },
+        {
+          "course": "PHYS1103",
+          "grade": "BB"
+        },
+        {
+          "course": "TRD121",
+          "grade": "DD"
+        },
+        {
+          "course": "ATA122",
+          "grade": "FD"
+        },
+        {
+          "course": "MATH1002",
+          "grade": "FD"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "number": "41511829",
+      "name": "",
+      "surname": "",
+      "grades": [
+        {
+          "course": "ATA121",
+          "grade": "BB"
+        },
+        {
+          "course": "CSE1200",
+          "grade": "DC"
+        },
+        {
+          "course": "CSE1241",
+          "grade": "CC"
+        },
+        {
+          "course": "MATH1001",
+          "grade": "DD"
+        },
+        {
+          "course": "MBG1201",
+          "grade": "DD"
+        },
+        {
+          "course": "PHYS1101",
+          "grade": "DC"
+        },
+        {
+          "course": "PHYS1103",
+          "grade": "FD"
+        },
+        {
+          "course": "TRD121",
+          "grade": "AA"
+        },
+        {
+          "course": "ATA122",
+          "grade": "FD"
+        },
+        {
+          "course": "MATH1002",
+          "grade": "FF"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "number": "64507322",
+      "name": "",
+      "surname": "",
+      "grades": [
+        {
+          "course": "ATA121",
+          "grade": "CC"
+        },
+        {
+          "course": "CSE1200",
+          "grade": "FD"
+        },
+        {
+          "course": "CSE1241",
+          "grade": "FD"
+        },
+        {
+          "course": "MATH1001",
+          "grade": "BB"
+        },
+        {
+          "course": "MBG1201",
+          "grade": "FF"
+        },
+        {
+          "course": "PHYS1101",
+          "grade": "FD"
+        },
+        {
+          "course": "PHYS1103",
+          "grade": "CB"
+        },
+        {
+          "course": "TRD121",
+          "grade": "CC"
+        },
+        {
+          "course": "ATA122",
+          "grade": "CB"
+        },
+        {
+          "course": "MATH1002",
+          "grade": "BA"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "number": "96871305",
+      "name": "",
+      "surname": "",
+      "grades": [
+        {
+          "course": "ATA121",
+          "grade": "CC"
+        },
+        {
+          "course": "CSE1200",
+          "grade": "CC"
+        },
+        {
+          "course": "CSE1241",
+          "grade": "DD"
+        },
+        {
+          "course": "MATH1001",
+          "grade": "FD"
+        },
+        {
+          "course": "MBG1201",
+          "grade": "BB"
+        },
+        {
+          "course": "PHYS1101",
+          "grade": "DD"
+        },
+        {
+          "course": "PHYS1103",
+          "grade": "BB"
+        },
+        {
+          "course": "TRD121",
+          "grade": "FF"
+        },
+        {
+          "course": "ATA122",
+          "grade": "CC"
+        },
+        {
+          "course": "MATH1002",
+          "grade": "AA"
+        }
+      ]
+    }
+  ]
+}
